@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="745.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.jeopController">
+   <children>
+      <Button fx:id="cor4" layoutX="643.0" layoutY="210.0" mnemonicParsing="false" onAction="#add400" style="-fx-background-color: green;" text="Correct" textFill="GOLD">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn30" layoutX="631.0" layoutY="301.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue; -fx-border-color: black;" text="What is the name of Jess's cow? AND Name 5 Hershey's products. " textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="1.0" layoutY="69.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="95.0" style="-fx-background-color: blue;" text="The most popular chocolate Brand worldwide, founded by Milton S. Hershey" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="1.0" layoutY="135.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A popular candy bar invented in 1899 by Jean Tobler" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn29" layoutX="301.0" layoutY="335.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="Chocolate made with 2 parts Cacao Butter, 1 part Cacao Powder, and 2 parts sugar and 1 part Milk has what percent Cacao?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="7.4" />
+         </font>
+      </Button>
+      <Button fx:id="btn28" layoutX="302.0" layoutY="68.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A chocolate made with Milk Powder" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn27" layoutX="302.0" layoutY="135.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A Chocolate with so little cocoa powder It is white in Color:" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn26" layoutX="302.0" layoutY="202.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A chocolate that is 60% or more cacao" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn25" layoutX="302.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A chocolate typical 70% to 100% cacao used by bakers in baked goods. *Be specific*" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn24" layoutX="202.0" layoutY="68.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This town is home to the Hershey Chocolate Company" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn23" layoutX="202.0" layoutY="135.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This township is home to the farm that Hershey bought." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn22" layoutX="202.0" layoutY="202.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This company was Milton’s first" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn21" layoutX="202.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This is what Hersheys Mansion is described as" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn20" layoutX="201.0" layoutY="335.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This font is used for the Hershey logo" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn19" layoutX="501.0" layoutY="68.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="The state is the town Hershey, name after Milton Hershey, is located" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn18" layoutX="501.0" layoutY="135.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="The voyage Columbus got arrested was his ____ voyage." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn17" layoutX="501.0" layoutY="202.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A specific Sugar found in Cow's Milk that many people have trouble digesting" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn16" layoutX="502.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A Small country between Switzerland and Austria" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn15" layoutX="501.0" layoutY="335.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="Milton S. Hershey died here at the age of 88." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn14" layoutX="403.0" layoutY="69.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="The company name of Hershey’s arch rival founded in 1911" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn13" layoutX="402.0" layoutY="135.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="A world Famous Chocolate brand that originated in Ireland" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn12" layoutX="401.0" layoutY="202.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="The famous Mars bar goes by what alternative name in the USA?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn11" layoutX="402.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="This is the percentage of the american candy market that arch rivals Hershey and M&amp;M /Mars control" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn10" layoutX="401.0" layoutY="335.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="Cadbury for a short time had trademarked this precise color" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="103.0" layoutY="69.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="Founder of Hershey’ arch rival" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="2.0" layoutY="203.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="95.0" style="-fx-background-color: blue;" text="The invention of this process in chocolate making prevents chocolate from turning blotchy. It makes chocolate look better. " textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="7.4" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="102.0" layoutY="136.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="He was born in 1857" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" layoutX="102.0" layoutY="203.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="He founded his chocolate company in 1824" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="103.0" layoutY="269.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="He invented the first chocolate press" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="102.0" layoutY="335.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="They used a steam engine to grind cacao" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn1" layoutX="1.0" layoutY="336.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="The invention that makes chocolate smoother and more finely ground" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="img1" fitHeight="62.0" fitWidth="96.0" layoutX="2.0" layoutY="270.0">
+         <image>
+            <Image url="@../../../../Desktop/Screen%20Shot%202022-10-20%20at%204.18.37%20PM.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="314.0" layoutY="37.0" text="Chocolate" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="21.0" text="Types of" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font>
+      </Label>
+      <GridPane gridLinesVisible="true" prefHeight="400.0" prefWidth="600.0">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Famous People" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Verdana Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label text="Bonus" textFill="WHITE" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label text="Hershey" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Verdana Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label text="Inventions" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_19" mnemonicParsing="false" onAction="#makeButton19Clear" prefHeight="97.0" prefWidth="150.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_13" mnemonicParsing="false" onAction="#makeButton13Clear" prefHeight="120.0" prefWidth="161.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_7" mnemonicParsing="false" onAction="#makeButton7Clear" prefHeight="173.0" prefWidth="173.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_6" mnemonicParsing="false" onAction="#makeButton6Clear" prefHeight="92.0" prefWidth="152.0" style="-fx-background-color: blue;" text="\$100" textFill="YELLOW" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_12" mnemonicParsing="false" onAction="#makeButton12Clear" prefHeight="67.0" prefWidth="95.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_18" mnemonicParsing="false" onAction="#makeButton18Clear" prefHeight="64.0" prefWidth="103.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_24" mnemonicParsing="false" onAction="#makeButton24Clear" prefHeight="97.0" prefWidth="150.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_26" mnemonicParsing="false" onAction="#makeButton26Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_27" mnemonicParsing="false" onAction="#makeButton27Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_28" mnemonicParsing="false" onAction="#makeButton28Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_29" mnemonicParsing="false" onAction="#makeButton29Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_30" mnemonicParsing="false" onAction="#makeButton30Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_1" mnemonicParsing="false" onAction="#makeButton1Clear" prefHeight="82.0" prefWidth="121.0" style="-fx-background-color: blue;" text=" $100" textFill="YELLOW" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_25" mnemonicParsing="false" onAction="#makeButton25Clear" prefHeight="117.0" prefWidth="189.0" style="-fx-background-color: blue;" text="\$500" textFill="YELLOW" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Label layoutX="415.0" layoutY="20.0" text="Chocolate" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="37.0" text="Rivals" textFill="WHITE">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_20" layoutX="102.0" layoutY="269.0" mnemonicParsing="false" onAction="#makeButton20Clear" prefHeight="62.0" prefWidth="95.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_14" layoutX="102.0" layoutY="202.0" mnemonicParsing="false" onAction="#makeButton14Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_8" layoutX="101.0" layoutY="136.0" mnemonicParsing="false" onAction="#makeButton8Clear" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_2" layoutX="102.0" layoutY="68.0" mnemonicParsing="false" onAction="#makeButton2Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$100" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_23" layoutX="401.0" layoutY="269.0" mnemonicParsing="false" onAction="#makeButton23Clear" prefHeight="62.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_17" layoutX="403.0" layoutY="202.0" mnemonicParsing="false" onAction="#makeButton17Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_11" layoutX="402.0" layoutY="135.0" mnemonicParsing="false" onAction="#makeButton11Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_5" layoutX="401.0" layoutY="68.0" mnemonicParsing="false" onAction="#makeButton5Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$100" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_21" layoutX="201.0" layoutY="269.0" mnemonicParsing="false" onAction="#makeButton21Clear" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_15" layoutX="201.0" layoutY="202.0" mnemonicParsing="false" onAction="#makeButton15Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_9" layoutX="201.0" layoutY="137.0" mnemonicParsing="false" onAction="#makeButton9Clear" prefHeight="62.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_3" layoutX="201.0" layoutY="68.0" mnemonicParsing="false" onAction="#makeButton3Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$100" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_22" layoutX="301.0" layoutY="269.0" mnemonicParsing="false" onAction="#makeButton22Clear" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$400" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_16" layoutX="301.0" layoutY="202.0" mnemonicParsing="false" onAction="#makeButton16Clear" prefHeight="64.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$300" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_10" layoutX="301.0" layoutY="137.0" mnemonicParsing="false" onAction="#makeButton10Clear" prefHeight="62.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$200" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_4" layoutX="301.0" layoutY="69.0" mnemonicParsing="false" onAction="#makeButton4Clear" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue;" text="\$100" textFill="YELLOW">
+         <font>
+            <Font name="Verdana Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="finalJ" layoutX="631.0" layoutY="301.0" mnemonicParsing="false" onAction="#makeButtonFinalClear" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue; -fx-border-color: black;" text="Final Jeopardy?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="think" layoutX="631.0" layoutY="100.0" mnemonicParsing="false" onAction="#playSound" prefHeight="63.0" prefWidth="96.0" style="-fx-background-color: blue; -fx-border-color: black;" text="Think." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label fx:id="score" layoutX="652.0" layoutY="26.0" style="-fx-border-color: black;" text="Score" textFill="#00ff51">
+         <font>
+            <Font name="PT Mono Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="cor1" layoutX="643.0" layoutY="210.0" mnemonicParsing="false" onAction="#add100" style="-fx-background-color: green;" text="Correct" textFill="GOLD">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cor2" layoutX="643.0" layoutY="210.0" mnemonicParsing="false" onAction="#add200" style="-fx-background-color: green;" text="Correct" textFill="GOLD">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cor3" layoutX="643.0" layoutY="210.0" mnemonicParsing="false" onAction="#add300" style="-fx-background-color: green;" text="Correct" textFill="GOLD">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="cor5" layoutX="643.0" layoutY="210.0" mnemonicParsing="false" onAction="#add500" style="-fx-background-color: green;" text="Correct" textFill="GOLD">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="wrong" layoutX="651.0" layoutY="246.0" mnemonicParsing="false" onAction="#wrong" style="-fx-background-color: red;" text="Wrong">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="632.0" layoutY="173.0" mnemonicParsing="false" prefHeight="121.0" prefWidth="95.0" style="-fx-background-color: blue;" />
+      <Button layoutX="656.0" layoutY="369.0" mnemonicParsing="false" onAction="#returnToMain" style="-fx-background-color: red;" text="Quit">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

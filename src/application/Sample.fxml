@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <bottom>
+      <AnchorPane minHeight="-Infinity" prefHeight="41.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="cps" alignment="CENTER" contentDisplay="CENTER" layoutX="402.0" layoutY="-2.0" prefHeight="43.0" prefWidth="197.0" text="CPS: 0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="22.0" layoutY="7.0" mnemonicParsing="false" onAction="#returnToMain" style="-fx-background-color: red;" text="Quit">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <left>
+		<StackPane prefHeight="256.0" prefWidth="380.0" BorderPane.alignment="CENTER">
+			<children>
+            <ImageView fitHeight="166.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../cookie.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="big_cookie" fitHeight="184.0" fitWidth="306.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../cookie.png" />
+               </image>
+            </ImageView>
+				<Button id="btn" fx:id="btn" mnemonicParsing="false" onAction="#addcookie" opacity="0.0" prefHeight="28.0" prefWidth="63.0" scaleX="3.0" scaleY="7.0" text="Click me!" translateZ="2.0">
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis></Button>
+			</children>
+		</StackPane>
+   </left>
+   <right>
+      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <GridPane prefHeight="126.0" prefWidth="158.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button id="timesTwo" alignment="CENTER" mnemonicParsing="false" onAction="#buyMulti" prefHeight="62.0" prefWidth="114.0" text="2x Per Click" textAlignment="CENTER" />
+                        <Button id="timesThree" alignment="CENTER" mnemonicParsing="false" onAction="#buyTriple" prefHeight="62.0" prefWidth="114.0" text="3x Per Click" textAlignment="CENTER" GridPane.rowIndex="1" />
+                        <Button id="timesFour" alignment="CENTER" mnemonicParsing="false" onAction="#buyFour" prefHeight="62.0" prefWidth="114.0" text="4x Per Click" textAlignment="CENTER" GridPane.rowIndex="2" />
+                        <Button id="timesFive" alignment="CENTER" mnemonicParsing="false" onAction="#buyFive" prefHeight="62.0" prefWidth="114.0" text="5x Per Click" textAlignment="CENTER" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="195.0" text="200 Cookies" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="195.0" text="400 Cookies" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="195.0" text="600 Cookies" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="32.0" prefWidth="195.0" text="800 Cookies" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <GridPane prefHeight="126.0" prefWidth="158.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button id="plusOne" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addOne" prefHeight="42.0" prefWidth="146.0" text="+1 CPS" />
+                        <Button id="plusFive" mnemonicParsing="false" onAction="#addFive" prefHeight="42.0" prefWidth="86.0" text="+25 CPS" GridPane.rowIndex="1" />
+                        <Button id="plusHundred" mnemonicParsing="false" onAction="#addHundred" prefHeight="42.0" prefWidth="120.0" text="+100 CPS" GridPane.rowIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="42.0" prefWidth="92.0" text="50 Cookies" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="46.0" prefWidth="79.0" text="350 Cookies" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="42.0" prefWidth="111.0" text="2500 Cookies" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </right>
+   <top>
+		<Label id="lbl" fx:id="num" alignment="CENTER" contentDisplay="CENTER" prefHeight="104.0" prefWidth="77.0" text="0" BorderPane.alignment="CENTER">
+			<font>
+				<Font size="46.0" />
+			</font>
+		</Label>
+   </top>
+</BorderPane>

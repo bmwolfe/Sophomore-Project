@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../../../Downloads/images.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#returnToMain" style="-fx-background-color: red;" text="Return" textFill="#62c4e8">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font></Button>
+      <Label layoutX="187.0" layoutY="34.0" text="Select Game to see Statistics" textFill="#0095ff">
+         <font>
+            <Font name="PT Mono Bold" size="13.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutY="92.0" prefHeight="100.0" prefWidth="600.0" style="-fx-spacing: 50;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#astStats" style="-fx-background-color: grey;" text="Asteroids" textFill="WHITE">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#bljStats" style="-fx-background-color: green;" text="Slot Machine" textFill="GOLD">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#matStats" style="-fx-background-color: blue;" text="Matching" textFill="ORANGE">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="170.0" prefHeight="100.0" prefWidth="600.0" style="-fx-spacing: 50;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button mnemonicParsing="false" onAction="#jeopStats" style="-fx-background-color: blue;" text="Jeopardy" textFill="#fffb00">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#tbdStats" style="-fx-background-color: orange;" text="Clicker" textFill="#0011ff">
+               <font>
+                  <Font name="PT Mono Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
